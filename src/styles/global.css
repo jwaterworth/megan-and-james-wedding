@@ -1,0 +1,19 @@
+html,
+body {
+  font-family: Baskerville;
+  background-color: #fffce3;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-weight: 100;
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  margin: auto;
+}
