@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+// If need, change your variables before importing Bulma
+$title-color: #000000;
+$primary: #fffce3;
+$background: #fffce3;
+
+$family-sans-serif: Baskerville;
+
+// html,
+// body {
+//   font-family: Baskerville;
+//   background-color: #fffce3;
+//   //   margin: 0;
+//   //   padding: 0;
+// }
+@import "~bulma/bulma.sass";
