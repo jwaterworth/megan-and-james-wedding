@@ -41,7 +41,7 @@ export default function IndexPage() {
   });
 
   return (
-    <div>
+    <div className="hide-content">
       <Helmet>
         <meta charSet="utf-8" />
         <meta
@@ -59,13 +59,11 @@ export default function IndexPage() {
         </div>
       </div> */}
       {/* End Preloader*/}
-      {/* Begin Scroll Up Button */}
       <form action="#home">
         <button id="toTop" title="Go to top">
           <i className="fas fa-angle-up" />
         </button>
       </form>
-      {/* End Scroll Up Button */}
       <Hero />
       <div className="main-content">
         <Plan />
@@ -75,7 +73,7 @@ export default function IndexPage() {
         <FAQ />
         <Contact />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

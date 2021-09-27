@@ -65,6 +65,9 @@ export default function Hero() {
           <div className="container has-text-centered">
             <h2 className="title">Megan & James Wedding</h2>
             <h1 className="subtitle profession">20/08/2022</h1>
+            <h2 className="subtitle profession">
+              More information to follow...
+            </h2>
           </div>
         </div>
         <div className="hero-foot ">

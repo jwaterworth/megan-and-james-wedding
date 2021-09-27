@@ -1,9 +1,68 @@
 @charset "utf-8";
 // If need, change your variables before importing Bulma
 // $title-color: #ff0000;
+
+$title-weight: 0;
+$subtitle-strong-weight: 0;
+
 @import "~bulma/bulma.sass";
 
-@import "./mystyles.scss";
+// my styles
+
+html {
+  background: rgb(37, 83, 105);
+  background: linear-gradient(
+    180deg,
+    rgba(37, 83, 105, 1) 0%,
+    rgba(38, 84, 106, 1) 50%,
+    rgba(51, 92, 114, 1) 61%,
+    rgba(102, 128, 143, 1) 100%
+  );
+}
+
+.hide-content {
+  .navbar {
+    display: none;
+  }
+
+  .hero.is-seventy-thirty-height {
+    min-height: 100vh;
+  }
+
+  .main-content {
+    display: none;
+  }
+
+  .hero {
+    background-attachment: scroll;
+  }
+
+  .hero-foot {
+    display: none;
+  }
+
+  .header-wrapper {
+    padding-bottom: 0px;
+  }
+}
+
+.hero.is-seventy-thirty-height {
+  min-height: 70vh;
+
+  @include until(768px) {
+    min-height: 100vh;
+  }
+}
+
+.navbar-burger {
+  color: #ffffff;
+
+  span {
+    margin: 1px;
+  }
+}
+
+// end of my styles
 
 @import url("https://fonts.googleapis.com/css?family=Lato|Poppins|Kaushan+Script");
 .has-vertically-aligned-content {
@@ -53,6 +112,7 @@ html {
 .hero .subtitle {
   padding: 5px;
   color: whitesmoke;
+  font-family: "Kaushan Script", sans-serif;
 }
 
 .hero .profession {
@@ -80,7 +140,8 @@ html {
 
 .hero .hero-foot .hero-foot--wrapper .hero-menu-desktop {
   line-height: 38px;
-  font-weight: 600;
+  // font-weight: 600;
+  font-weight: 0;
   text-transform: lowercase;
   letter-spacing: 1px;
   font-size: 1rem;
@@ -262,7 +323,7 @@ html {
   padding-bottom: 30px;
 }
 
-.footer {
+div.footer {
   bottom: 0;
   width: 100vw;
   padding: 0;
