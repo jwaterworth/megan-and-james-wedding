@@ -85,10 +85,44 @@ html {
   padding-bottom: 30px;
 }
 
+#moon {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 50px;
+  top: 50px;
+  z-index: -1;
+}
+
+#star {
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  right: 109px;
+  top: 50px;
+}
+
+#tipi {
+  width: 80%;
+  margin: 0 10%;
+  position: absolute;
+  top: 40px;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .hero .hero-body {
+    margin-top: 55px;
+  }
+
+  #tipi {
+    top: 0px;
+  }
+}
 .hero {
   // background-image: url(https://picsum.photos/id/381/1920/1080);
-  background-image: url("../images/tipi-night.jpg");
-  background: url("../images/tipi-night.jpg") no-repeat;
+  // background-image: url("../images/tipi-night.jpg");
+  // background: url("../images/tipi-night.jpg") no-repeat;
   // background-attachment: fixed;
   // background-size: cover;
 
@@ -356,8 +390,7 @@ div.footer {
 #toTop {
   height: 50px;
   width: 50px;
-  display: none;
-  // display: block;
+  display: block;
   position: fixed;
   bottom: 20px;
   right: 30px;

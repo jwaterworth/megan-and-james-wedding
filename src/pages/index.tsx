@@ -1,16 +1,18 @@
 import { graphql, useStaticQuery } from "gatsby";
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
-import "../styles/showcase.scss";
+// import "../styles/showcase.scss";
 import AOS from "aos";
 import Hero from "./hero";
-import Plan from "./plan";
-import Location from "./location";
+import Ceremony from "./ceremony";
+import Directions from "./directions";
 import Accommodation from "./accommodation";
-import RSVP from "./rsvp";
+import Taxis from "./taxis";
 import FAQ from "./faq";
 import Contact from "./contact";
 import Footer from "./footer";
+import Reception from "./reception";
+import Gifts from "./gifts";
 
 export default function IndexPage() {
   const { site } = useStaticQuery(
@@ -41,7 +43,8 @@ export default function IndexPage() {
   });
 
   return (
-    <div className="hide-content">
+    <div>
+      {/* <div className="hide-content"> */}
       <Helmet>
         <meta charSet="utf-8" />
         <meta
@@ -66,10 +69,12 @@ export default function IndexPage() {
       </form>
       <Hero />
       <div className="main-content">
-        <Plan />
-        <Location />
+        <Ceremony />
+        <Reception />
+        <Directions />
         <Accommodation />
-        <RSVP />
+        <Taxis />
+        <Gifts />
         <FAQ />
         <Contact />
       </div>
