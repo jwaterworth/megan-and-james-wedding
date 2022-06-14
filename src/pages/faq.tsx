@@ -4,32 +4,10 @@ export default function FAQ() {
   return (
     <div className="section-dark my-work" id="faq">
       <div className="container">
-        <div
-          className="columns is-multiline"
-          data-aos="fade-in"
-          data-aos-easing="linear"
-        >
-          <div className="column is-12">
+        <div className="columns is-multiline">
+          <div className="column is-12 plan">
             <h1 className="title has-text-centered section-title">FAQ</h1>
-          </div>
-          <div className="list">
-            <ul>
-              <div className="list-item">
-                <li>Go for a trip with bike</li>
-              </div>
-              <div className="list-item">
-                <li>Go for a trip with bike</li>
-              </div>
-              <div className="list-item">
-                <li>Go for a trip with bike</li>
-              </div>
-              <div className="list-item">
-                <li>Go for a trip with bike</li>
-              </div>
-              <div className="list-item">
-                <li>Go for a trip with bike</li>
-              </div>
-            </ul>
+            <p>Please send us some questions!!</p>
           </div>
         </div>
       </div>

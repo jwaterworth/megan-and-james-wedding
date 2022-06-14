@@ -100,6 +100,7 @@ html {
   position: fixed;
   right: 109px;
   top: 50px;
+  z-index: -1;
 }
 
 #tipi {
@@ -204,12 +205,13 @@ html {
 .main-content {
   padding-top: 2rem;
   color: #3c4172;
+  background-color: #ffffff;
   font-family: "Poppins", sans-serif;
 }
 
 .main-content .section-dark {
   background-color: #f0f3f5;
-  padding: 60px 0px;
+  padding: 30px;
 }
 
 .main-content .section-dark.location {
@@ -286,14 +288,14 @@ html {
   }
 }
 
-.main-content .section-light.plan .right-image img {
+.main-content .right-image img {
   border-radius: 11px;
   margin: 20px;
   box-shadow: 0 5px 20px rgba(14, 25, 80, 0.3);
 }
 
 @media (max-width: 768px) {
-  .main-content .section-light.plan .right-image img {
+  .main-content .right-image img {
     margin: auto;
   }
 }
@@ -304,8 +306,7 @@ html {
 
 @media (max-width: 768px) {
   .main-content .section-light.location {
-    padding: 50px 20px 40px 20px;
-    padding-bottom: 20px;
+    padding: 50px 20px 50px 30px;
   }
 }
 
@@ -333,18 +334,24 @@ html {
   }
 }
 
-.main-content .section-color.accommodation {
+.main-content .section-color {
   padding: 100px;
   background-color: #43485c;
   color: white;
 }
 
-.main-content .section-color.accommodation .title,
-.main-content .section-color.accommodation .subtitle {
+@media (max-width: 768px) {
+  .main-content .section-color {
+    padding: 50px 20px 50px 30px;
+  }
+}
+
+.main-content .section-color .title,
+.main-content .section-color .subtitle {
   color: white;
 }
 
-.main-content .section-color.accommodation i {
+.main-content .section-color i {
   font-size: 3rem;
   padding: 20px;
 }

@@ -9,6 +9,7 @@ import Directions from "./directions";
 import Accommodation from "./accommodation";
 import Taxis from "./taxis";
 import FAQ from "./faq";
+import ContactForm from "./contact-new";
 import Contact from "./contact";
 import Footer from "./footer";
 import Reception from "./reception";

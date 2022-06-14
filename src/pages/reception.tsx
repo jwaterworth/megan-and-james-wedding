@@ -1,13 +1,13 @@
 import React from "react";
 import "../styles/showcase.scss";
-import ChurchImg from "../images/church-st-martin.jpeg";
+import ChurchImg from "../images/sandford_cricket_club.jpeg";
 
 export default function Reception() {
   return (
-    <div className="section-light plan" id="reception">
+    <div className="section-dark plan" id="party">
       <div className="container">
         <div className="column is-12 plan">
-          <h1 className="title has-text-centered section-title">Reception</h1>
+          <h1 className="title has-text-centered section-title">Party</h1>
         </div>
         <div className="columns is-multiline">
           <div
@@ -15,17 +15,21 @@ export default function Reception() {
             data-aos="fade-right"
           >
             <p className="is-larger">
-              <strong>
-                A wedding breakfast will follow up at the cricket club at 15.00
-                and an evening reception at 18.30.
-              </strong>
+              For all guests, the party will start at <strong>18.30</strong> at
+              the cricket club.
             </p>
             <br />
-            <p>Evening food will be served around 21.00.</p>
+            <p>
+              Evening food will be served around <strong>21.00.</strong>
+            </p>
             <br />
             <p>
-              Carriages at 0.00. The reception will be on grass so please choose
-              your footwear accordingly.
+              The reception will be on grass so please choose your footwear
+              accordingly.
+            </p>
+            <br />
+            <p>
+              Carriages at <strong>0.00.</strong>
             </p>
           </div>
           <div className="column is-6 right-image " data-aos="fade-left">

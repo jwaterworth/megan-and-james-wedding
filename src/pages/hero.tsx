@@ -38,8 +38,8 @@ export default function Hero() {
                 </a>
               </div>
               <div className="navbar-item">
-                <a className="navbar-item" href="#reception">
-                  Reception
+                <a className="navbar-item" href="#party">
+                  Party
                 </a>
               </div>
               <div className="navbar-item">
@@ -82,9 +82,6 @@ export default function Hero() {
           <div className="container has-text-centered">
             <h2 className="title">Megan & James Wedding</h2>
             <h1 className="subtitle profession">20/08/2022</h1>
-            <h2 className="subtitle profession">
-              More information to follow...
-            </h2>
           </div>
         </div>
         <img id="tipi" src={TipiImg}></img>
@@ -97,7 +94,7 @@ export default function Hero() {
                     <a href="#ceremony">Ceremony</a>
                   </li>
                   <li>
-                    <a href="#reception">Reception</a>
+                    <a href="#party">Party</a>
                   </li>
                   <li>
                     <a href="#accommodation">Accommodation</a>
