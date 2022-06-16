@@ -63,11 +63,11 @@ export default function IndexPage() {
         </div>
       </div> */}
       {/* End Preloader*/}
-      <form action="#home">
+      {/* <form action="#home">
         <button id="toTop" title="Go to top">
           <i className="fas fa-angle-up" />
         </button>
-      </form>
+      </form> */}
       <Hero />
       <div className="main-content">
         <Ceremony />

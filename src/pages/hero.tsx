@@ -69,7 +69,7 @@ export default function Hero() {
               </div>
               <div className="navbar-item">
                 <a className="navbar-item" href="#contact">
-                  Contact
+                  Get In Touch
                 </a>
               </div>
             </div>
@@ -109,7 +109,7 @@ export default function Hero() {
                     <a href="#faq">FAQ</a>
                   </li>
                   <li>
-                    <a href="#contact">Contact</a>
+                    <a href="#contact">Get In Touch</a>
                   </li>
                 </ul>
               </div>
