@@ -14,6 +14,7 @@ import Contact from "./contact";
 import Footer from "./footer";
 import Reception from "./reception";
 import Gifts from "./gifts";
+import MeganJames from "./megan-james";
 
 export default function IndexPage() {
   const { site } = useStaticQuery(
@@ -76,6 +77,7 @@ export default function IndexPage() {
         <Accommodation />
         <Taxis />
         <Gifts />
+        <MeganJames />
         <FAQ />
         <Contact />
       </div>

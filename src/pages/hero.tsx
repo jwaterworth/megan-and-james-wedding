@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../styles/showcase.scss";
 
 import TipiImg from "../images/tipi.svg";
+import JamesMeganImg from "../images/james-megan.jpg";
 import MoonImg from "../images/moon.png";
 import StarImg from "../images/star.svg";
 
@@ -63,13 +64,18 @@ export default function Hero() {
                 </a>
               </div>
               <div className="navbar-item">
+                <a className="navbar-item" href="#about">
+                  About Us
+                </a>
+              </div>
+              <div className="navbar-item">
                 <a className="navbar-item" href="#faq">
                   FAQ
                 </a>
               </div>
               <div className="navbar-item">
                 <a className="navbar-item" href="#contact">
-                  Get In Touch
+                  Contact
                 </a>
               </div>
             </div>
@@ -106,10 +112,13 @@ export default function Hero() {
                     <a href="#gifts">Gifts</a>
                   </li>
                   <li>
+                    <a href="#about">About Us</a>
+                  </li>
+                  <li>
                     <a href="#faq">FAQ</a>
                   </li>
                   <li>
-                    <a href="#contact">Get In Touch</a>
+                    <a href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>

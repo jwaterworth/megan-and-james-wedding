@@ -5,7 +5,7 @@ export default function Contact() {
   const [state, handleSubmit] = useForm("xyyovlkz");
   if (state.succeeded) {
     return (
-      <div className="section-light contact" id="contact">
+      <div className="section-color contact" id="contact">
         <div className="container">
           <div
             className="columns is-multiline"
@@ -13,9 +13,7 @@ export default function Contact() {
             data-aos-easing="linear"
           >
             <div className="column is-12 plan">
-              <h1 className="title has-text-centered section-title">
-                Get in touch
-              </h1>
+              <h1 className="title has-text-centered section-title">Contact</h1>
             </div>
             <div className="column is-8 is-offset-2">
               <h2>Thanks! We'll get back to you as soon as we can!</h2>
@@ -26,7 +24,7 @@ export default function Contact() {
     );
   }
   return (
-    <div className="section-light contact" id="contact">
+    <div className="section-color contact" id="contact">
       <div className="container">
         <div
           className="columns is-multiline"
@@ -34,14 +32,12 @@ export default function Contact() {
           data-aos-easing="linear"
         >
           <div className="column is-12 plan">
-            <h1 className="title has-text-centered section-title">
-              Get in touch
-            </h1>
+            <h1 className="title has-text-centered section-title">Contact</h1>
           </div>
           <div className="column is-8 is-offset-2">
             <form onSubmit={handleSubmit}>
               <div className="field">
-                <label className="label">Name</label>
+                <label className="label has-text-light">Name</label>
                 <div className="control has-icons-left">
                   <input
                     className="input"
@@ -55,7 +51,7 @@ export default function Contact() {
                 </div>
               </div>
               <div className="field">
-                <label className="label">Email</label>
+                <label className="label has-text-light">Email</label>
                 <div className="control has-icons-left">
                   <input
                     className="input"
@@ -74,7 +70,7 @@ export default function Contact() {
                 </div>
               </div>
               <div className="field">
-                <label className="label">Message</label>
+                <label className="label has-text-light">Message</label>
                 <div className="control">
                   <textarea
                     className="textarea"
@@ -93,7 +89,7 @@ export default function Contact() {
                 <div className="control ">
                   <button
                     type="submit"
-                    className="button submit-button"
+                    className="button submit-button has-text-dark"
                     disabled={state.submitting}
                   >
                     Submit&nbsp;&nbsp;
