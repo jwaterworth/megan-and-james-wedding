@@ -3,7 +3,7 @@ module.exports = {
     title: `Megan & James Wedding`,
     description: `Megan & James Wedding - 20/08/22`,
     author: `James Waterworth`,
-    url: `https://meganandjames.co.uk`,
+    url: `https://meganandjames.uk`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

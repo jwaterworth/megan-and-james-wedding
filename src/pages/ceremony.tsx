@@ -14,12 +14,17 @@ export default function Ceremony() {
             className="column is-6 has-vertically-aligned-content"
             data-aos="fade-right"
           >
-            <p className="is-larger">
+            <p>
               For day guests, the ceremony will start at <strong>13.30.</strong>{" "}
               Please arrive by <strong>13.00</strong> to avoid a late entrance!
             </p>
             <br />
-            <p className="is-larger">
+            <p>
+              Parking is available next to the church and should be well
+              signposted. It should be fine to leave cars overnight if you need.
+            </p>
+            <br />
+            <p>
               The wedding breakfast will follow up at the cricket club at{" "}
               <strong>15.00</strong>.
             </p>

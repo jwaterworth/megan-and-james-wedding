@@ -9,8 +9,14 @@ export default function Gifts() {
             <h1 className="title has-text-centered section-title">Gifts</h1>
             <p>
               If you’re thinking of giving a gift, to help us on our way,
-              instead a donation to British Heart Foundation, a charity close to
-              our hearts, would really make our day.
+              instead a donation to{" "}
+              <a
+                target="_blank"
+                href="https://celebration.bhf.org.uk/Celebration/Megan-and-James-Wedding"
+              >
+                British Heart Foundation
+              </a>
+              , a charity close to our hearts, would really make our day.
             </p>
           </div>
         </div>
